@@ -1,0 +1,48 @@
+*{
+    border: solid black 1px;
+}
+
+nav{
+    border: solid white 1px;
+    height: 5vh;
+    width: 100vw;
+    background-color: white;
+}
+
+header{
+    border: solid white;
+    height: 50vh;
+    width: 100vw;
+    background-color:rgb(95, 95, 95) ;
+    }
+
+    #form-div{
+    border: solid white;
+    height: 50vh;
+    width: 50vw;
+    background-color:white ;
+    }
+
+    main{
+    height: 50vh;
+    width: 100vw;
+    background-color: darkgrey;
+    }
+
+    #emailinput{
+        height: 5vh;
+    width: 15vw;
+    background-color:white
+    }
+
+    #messageinput{
+        height: 15vh;
+    width: 15vw;
+    background-color:white
+    }
+
+    #contactinput{
+        height: 5vh;
+    width: 7.5vw;
+    background-color:white
+    }
