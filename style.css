@@ -1,15 +1,30 @@
 *{
-    border: solid black 1px;
+    /* border: solid black 1px; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
 }
 
 nav{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
     border: solid white 1px;
     height: 5vh;
     width: 100vw;
     background-color: white;
+    margin: 0;
+    padding: 0;
 }
 
 header{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
     border: solid white;
     height: 50vh;
     width: 100vw;
@@ -17,32 +32,74 @@ header{
     }
 
     #form-div{
+    display: flex;
+    flex-direction: column;
     border: solid white;
-    height: 50vh;
-    width: 50vw;
-    background-color:white ;
+    height: 42vh;
+    width:30vw;
+    background-color:darkgrey;
+    align-self: center;
+    justify-self: right;
+    justify-content: space-around;
     }
 
     main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
     height: 50vh;
     width: 100vw;
-    background-color: darkgrey;
+    background-color: white;
+    }
+
+    footer{
+        margin: 0;
+        padding: 0;
     }
 
     #emailinput{
-        height: 5vh;
-    width: 15vw;
-    background-color:white
+    height: 5vh;
+    width: 80%;
+    background-color:white;
+    align-self: center;
     }
 
     #messageinput{
-        height: 15vh;
-    width: 15vw;
-    background-color:white
+    height: 15vh;
+    width: 80%;
+    background-color:white;
+    align-self: center;
     }
 
     #contactinput{
-        height: 5vh;
+    height: 5vh;
     width: 7.5vw;
-    background-color:white
+    background-color:white;
+    align-self: flex-end;
+    margin-right: 10%;
+    }
+
+    #navagationUL{
+        margin: 0;
+        padding: 0;
+       display: flex;
+       flex-direction: row;
+       height: 5vh;
+       width: 30vw;
+       justify-content: space-evenly;
+       text-decoration: none;
+       list-style: none;
+       align-items: center;
+    }
+
+    #navagationUL a{
+        text-decoration: none;
+        color: black;
+    }
+
+    #mainContent{
+        height: 42vh;
+        width: 55vw;
+        align-self: center;
+        background-color: grey;
     }
